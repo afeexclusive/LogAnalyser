@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogAnalyzer</name>
+    </assembly>
+    <members>
+        <member name="T:LogAnalyzer.Controllers.LogController">
+            <summary>
+            Logging methods
+            </summary>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.#ctor(LogAnalyserApp.ILogAnalyserService,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Dependency Injections
+            </summary>
+            <param name="logAnalyserService"></param>
+            <param name="hostEnvironment"></param>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.GetTotalLogs">
+            <summary>
+            This endpoint gets the total logs in all the files
+            </summary>
+            <returns>Returns int TotalLogs</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.GetTotalLogs(System.DateTime,System.DateTime)">
+            <summary>
+            This endpoint gets total available logs in a period
+            </summary>
+            <returns>Returns int TotalLogs for time range</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.GetTotalLogs(System.Int64,System.Int64)">
+            <summary>
+            This endpoint gets total available logs based on size range
+            </summary>
+            <returns>Returns object Dictionary TKey, TValue of files for size range</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.UniqueAndDuplicateLogsPerFile">
+            <summary>
+            This endpoint gets error logs per log file
+            </summary>
+            <returns>Returns a list FileError object</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.ArchiveErrors(System.DateTime,System.DateTime)">
+            <summary>
+            This endpoint archives logs from a period
+            </summary>
+            <returns>Returns int Number of all archieved files</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.DeleteErrors(System.DateTime,System.DateTime)">
+            <summary>
+            This endpoint deletes logs from a period
+            </summary>
+            <returns>Returns int Number of all deleted files</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.DeleteArchives(System.DateTime,System.DateTime)">
+            <summary>
+            This endpoint deletes archives from a period
+            </summary>
+            <returns>Returns int Number of all deleted files</returns>
+        </member>
+        <member name="M:LogAnalyzer.Controllers.LogController.SaveToServer(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            This endpoint saves log files to remote server
+            </summary>
+            <param name="form"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LogAnalyzer.Startup">
+            <summary>
+            This method starts the application
+            </summary>
+        </member>
+        <member name="M:LogAnalyzer.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configuration class
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:LogAnalyzer.Startup.Configuration">
+            <summary>
+            Project configuration
+            </summary>
+        </member>
+        <member name="M:LogAnalyzer.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:LogAnalyzer.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

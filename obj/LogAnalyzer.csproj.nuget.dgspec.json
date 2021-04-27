@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\LogAnalyzer\\LogAnalyzer.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\LogAnalyser\\LogAnalyzer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\LogAnalyserApp\\LogAnalyserApp.csproj": {
+    "C:\\Users\\DELL\\Desktop\\LogAnalyserApp\\LogAnalyserApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\LogAnalyserApp\\LogAnalyserApp.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\LogAnalyserApp\\LogAnalyserApp.csproj",
         "projectName": "LogAnalyserApp",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\LogAnalyserApp\\LogAnalyserApp.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\LogAnalyserApp\\LogAnalyserApp.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\LogAnalyserApp\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\LogAnalyserApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\LogAnalyzer\\LogAnalyzer.csproj": {
+    "C:\\Users\\DELL\\Desktop\\LogAnalyser\\LogAnalyzer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\LogAnalyzer\\LogAnalyzer.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\LogAnalyser\\LogAnalyzer.csproj",
         "projectName": "LogAnalyzer",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\LogAnalyzer\\LogAnalyzer.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\LogAnalyser\\LogAnalyzer.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\LogAnalyzer\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\LogAnalyser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\LogAnalyserApp\\LogAnalyserApp.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\LogAnalyserApp\\LogAnalyserApp.csproj"
+              "C:\\Users\\DELL\\Desktop\\LogAnalyserApp\\LogAnalyserApp.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\LogAnalyserApp\\LogAnalyserApp.csproj"
               }
             }
           }

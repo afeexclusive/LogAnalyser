@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jx9SjThy5IJWsCzq2xlUN3DyZWcQKL+8FGdpiZkQ9kCUSLB1FCRLDIfvTbySV1ckPiXvJOHmjUBocxEa8095eg==",
+  "dgSpecHash": "Y3/ebSFGZdtusjxZdNCWAVoX7mvsLOCFHq/N8EV/OymVfFlMZnK9jSo10OFJ0mvmdoixnhgIrH9J4ApgB4/t+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\LogAnalyzer\\LogAnalyzer.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\LogAnalyser\\LogAnalyzer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

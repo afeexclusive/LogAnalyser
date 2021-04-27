@@ -1,0 +1,9 @@
+C:\Users\DELL\source\repos\LogAnalyserApp\bin\Debug\netcoreapp3.1\LogAnalyserApp.deps.json
+C:\Users\DELL\source\repos\LogAnalyserApp\bin\Debug\netcoreapp3.1\LogAnalyserApp.dll
+C:\Users\DELL\source\repos\LogAnalyserApp\bin\Debug\netcoreapp3.1\LogAnalyserApp.pdb
+C:\Users\DELL\source\repos\LogAnalyserApp\obj\Debug\netcoreapp3.1\LogAnalyserApp.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\LogAnalyserApp\obj\Debug\netcoreapp3.1\LogAnalyserApp.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\LogAnalyserApp\obj\Debug\netcoreapp3.1\LogAnalyserApp.AssemblyInfo.cs
+C:\Users\DELL\source\repos\LogAnalyserApp\obj\Debug\netcoreapp3.1\LogAnalyserApp.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\LogAnalyserApp\obj\Debug\netcoreapp3.1\LogAnalyserApp.dll
+C:\Users\DELL\source\repos\LogAnalyserApp\obj\Debug\netcoreapp3.1\LogAnalyserApp.pdb
